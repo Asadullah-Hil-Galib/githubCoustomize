@@ -1,0 +1,69 @@
+{
+    // terminal customization
+    "editor.renderWhitespace": "all",
+    "workbench.colorCustomizations": {
+      "editor.foreground": "#aabbcc",
+      "editorGroupHeader.tabsBackground": "#da00f7",
+      "activityBar.activeBackground": "#da00f7",
+      "sideBar.background": "#49049780",
+      "sideBar.border": "#2bff00",
+      "activityBar.background": "#0026ff",
+      "scrollbarSlider.activeBackground": "#ff0000",
+      "scrollbarSlider.background": "#f1c40f",
+      "scrollbarSlider.hoverBackground": "#2ecc71",
+    },
+    // config related to code formatting
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontSize": 18,
+    "editor.formatOnSave": true,
+    "[javascript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": null
+    },
+    // PowerMode text time style
+   //  Theme Coustomization
+    "workbench.colorTheme": "Shades of Purple",
+    // "editor.fontSize": 15,
+    "editor.fontFamily": " 'Fira Code', monospace",
+    "editor.fontLigatures": true,
+    "[javascriptreact]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": null
+    }, //disable all built-in syntax checking
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.tslint": true,
+      "source.organizeImports": true
+    },
+    "eslint.alwaysShowStatus": true,
+    // emmet
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorWidth": 1,
+    "files.autoSave": "afterDelay",
+    "editor.fontWeight": "500",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "javascript.format.enable":true,
+    // "workbench.iconTheme": "vscode-icons",
+    "editor.multiCursorPaste": "full",
+    "editor.suggest.localityBonus": true,
+    "search.seedWithNearestWord": true,
+    "workbench.editor.scrollToSwitchTabs": true,
+    // "git.autofetchPeriod": 50,
+    "editor.minimap.showSlider": "always",
+    "window.zoomLevel": 1,
+    "liveServer.settings.donotVerifyTags": true,
+    "tabnine.experimentalAutoImports": true,
+    "html.format.endWithNewline": true,
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "html.format.templating": true
+  }
